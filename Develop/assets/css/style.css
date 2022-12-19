@@ -87,23 +87,23 @@ main {
     background-color: #2589bd;
 }
 
-.benefits div {
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits div h3 {
+.benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits div img {
+.benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-main div {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,11 +112,11 @@ main div {
     color: #ffffff;
 }
 
-main div img {
+main section img {
     max-height: 200px;
 }
 
-main div h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
