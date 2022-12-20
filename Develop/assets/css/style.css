@@ -90,6 +90,27 @@ main {
     margin-left: 20px;
 }
 
+/* sets the spacing, size, font, background color, and text color of the each section in the main element */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets the maximum height of images in the each section of the main element */
+main section img {
+    max-height: 200px;
+}
+
+/* sets the font size and spacing for the heading in each section of the main element */
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* sets the default location, size, font type, and background color for the side panel that holds benefit information */
 .benefits {
     margin-right: 20px;
@@ -121,27 +142,6 @@ main {
     max-width: 150px;
 }
 
-/* sets the spacing, size, font, background color, and text color of the each section in the main element */
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* sets the maximum height of images in the each section of the main element */
-main section img {
-    max-height: 200px;
-}
-
-/* sets the font size and spacing for the heading in each section of the main element */
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* sets the footer's location, size, and font */
 footer {
     padding: 30px;
@@ -149,6 +149,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 
 /* sets the font size for the footer's heading */
 footer h2 {
