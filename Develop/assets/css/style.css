@@ -1,14 +1,16 @@
-
+/* targets all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* targets the body element and changes the background color for all contents inside */
 body {
     background-color: #d9dcd6;
 }
 
+/* targets the header element and sets default padding, font, background-color, and text color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* sets the display type and font size of the company name */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the color of "seo" within Horiseon logo on the page */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* set the default sizing, location, and font of the navbar elements */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +38,30 @@ header nav {
     font-size: 20px;
 }
 
+/* targets nav links list inside the navbar  */
 header nav ul {
+    /* removes the list marker type */
     list-style-type: none;
 }
 
+/* sets the left margin size and the display type for the nav links themselves in the navbar */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets the color of the navlinks and removes all text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets the font size of all p elements */
 p {
     font-size: 16px;
 }
 
+/* sets the background image, image position, and image size */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +71,26 @@ p {
     background-position: center;
 }
 
+/* sets image to the left of the container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* sets image to the right of the container */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets default width, left side margin size, and display style for all of main */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets the default location, size, font type, and background color for the side panel that holds benefit information */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,22 +102,26 @@ main {
     background-color: #2589bd;
 }
 
+/* sets the spacing between sections in the side panel */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* aligns the heading of each section and spaces it out from the content it pertains to */
 .benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets the display type and size of the images within each section as well as spaces them out from content around it*/
 .benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* sets the spacing, size, font, background color, and text color of the each section in the main element */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,15 +131,18 @@ main section {
     color: #ffffff;
 }
 
+/* sets the maximum height of images in the each section of the main element */
 main section img {
     max-height: 200px;
 }
 
+/* sets the font size and spacing for the heading in each section of the main element */
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets the footer's location, size, and font */
 footer {
     padding: 30px;
     clear: both;
@@ -128,6 +150,7 @@ footer {
     text-align: center;
 }
 
+/* sets the font size for the footer's heading */
 footer h2 {
     font-size: 20px;
 }
